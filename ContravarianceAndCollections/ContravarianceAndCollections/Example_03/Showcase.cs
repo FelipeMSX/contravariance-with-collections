@@ -15,6 +15,11 @@ namespace ContravarianceAndCollections.Example_03
 
             //Still preserves the compatibility
             IEnumerable<IEventArgs> t1 = new List<IEventArgs<string>>();
+
+            IEventArgs<object> stringArgs = new StringArgs("Felipe");
+            IEventArgs<object> voidArgs = new VoidArgs();
+            List<IEventArgs<object>> list  = new List<IEventArgs<object>>();
+
         }
     }
 }
