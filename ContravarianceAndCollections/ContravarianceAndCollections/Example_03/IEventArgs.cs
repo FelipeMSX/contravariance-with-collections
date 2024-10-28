@@ -6,7 +6,6 @@
         DateTime CreatedAt { get; }
     }
 
-
     public interface IEventArgs
     {
         object Data { get; }

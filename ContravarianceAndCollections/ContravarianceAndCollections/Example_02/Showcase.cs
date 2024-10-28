@@ -15,7 +15,6 @@ namespace ContravarianceAndCollections.Example_02
 
             //Impossible without covariance
             IEnumerable<IEventArgs<object>> t1 = new List<IEventArgs<string>>();
-
         }
     }
 }

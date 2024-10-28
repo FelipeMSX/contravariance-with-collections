@@ -4,8 +4,6 @@
     {
         public T Data { get; } = data;
         object IEventArgs.Data => Data;
-
-
         public DateTime CreatedAt { get; } = DateTime.Now;
     }
 }

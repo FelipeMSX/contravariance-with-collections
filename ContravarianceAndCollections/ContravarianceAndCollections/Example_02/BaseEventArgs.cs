@@ -2,7 +2,7 @@
 
 namespace ContravarianceAndCollections.Example_02
 {
-    public class BaseEventArgs<T>(T data) : IEventArgs<T>
+    public class BaseEventArgs<T>(T data) : IEventArgs<T> where T : class
     {
         public T Data { get; } = data;
 
